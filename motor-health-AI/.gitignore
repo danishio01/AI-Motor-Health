@@ -1,0 +1,96 @@
+# Dependencies
+node_modules/
+Frontend/node_modules/
+Backend/node_modules/
+
+# Python Virtual Environments & Packages
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+Frontend/.env
+Backend/.env
+Backend/.env.*
+!Backend/.env.example
+ml_service/.env
+ml_service/.env.*
+!ml_service/.env.example
+*.pem
+*.key
+*.cert
+*.p12
+credentials.json
+serviceAccountKey.json
+
+# Build output
+Frontend/dist/
+Backend/dist/
+dist/
+build/
+
+# Large Datasets & Raw Data (Preserve synthetic fixtures in tests)
+data/raw/
+data/processed/
+*.mat
+*.parquet
+*.h5
+*.tar.gz
+*.zip
+*.7z
+
+# Machine Learning Models & Heavy Artifacts
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.joblib
+models/*.pkl
+models/*.bin
+models/*.h5
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test coverage & Tool caches
+coverage/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.oxlint_cache/
